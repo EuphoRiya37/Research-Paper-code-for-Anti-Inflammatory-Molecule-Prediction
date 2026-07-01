@@ -2,10 +2,9 @@
 
 Graph Neural Network pipeline for predicting anti-inflammatory activity of small
 molecules, using molecular graph featurization and a Graph Attention Network (GAT)
-architecture.
+architecture. Code and results supporting a co-authored research paper.
 
 🔗 **Live demo:** [graphaismnet-app.streamlit.app](https://graphaismnet-app.streamlit.app)
-📄 Code accompanying our research paper (see companion repo: `Anti-inflammatory-small-molecule-prediction-Research-Paper`)
 
 ## Overview
 - Molecular graphs built from SMILES representations
@@ -14,11 +13,15 @@ architecture.
 - Early stopping via composite score; external validation reported honestly under distributional shift
 
 ## Repo contents
-- `GCN_AISM_v10_fast.ipynb` — main training/evaluation pipeline
-- `figures_v10fast/` — generated result figures
+- `graphaismnet_pipeline.ipynb` — final training/evaluation pipeline
+- `figures_v14/` — generated result figures (21 figures)
+
+## Related
+- Deployment code: `GraphAISMNet-Website`
+- Earlier iteration (superseded): `Anti-inflammatory-small-molecule-prediction-Code-for-Research-Paper`
 
 ## Tech stack
 PyTorch Geometric, RDKit, scikit-learn
 
 ## Status
-Research code supporting a submitted paper (co-authored, SRMIST, supervised by Dr. Thirumurthy Madhavan).
+Supporting a co-authored research paper (SRMIST, supervised by Dr. Thirumurthy Madhavan).
